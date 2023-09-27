@@ -2,7 +2,6 @@
     <qresource prefix="/images">
         <file>grass.png</file>
         <file>road.png</file>
-        <file>enemy.png</file>
         <file>enemy1.png</file>
         <file>towerPlus.png</file>
         <file>tower1.png</file>
