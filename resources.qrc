@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>grass.png</file>
+        <file>road.png</file>
+        <file>enemy.png</file>
+        <file>enemy1.png</file>
+        <file>towerPlus.png</file>
+        <file>tower1.png</file>
+        <file>arrow1.png</file>
+        <file>enemy2.png</file>
+        <file>enemy3.png</file>
+        <file>arrow2.png</file>
+        <file>tower2.png</file>
+        <file>arrow3.png</file>
+        <file>tower3.png</file>
+    </qresource>
+    <qresource prefix="/config">
+        <file>config.json</file>
+    </qresource>
+</RCC>

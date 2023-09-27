@@ -1,0 +1,101 @@
+
+
+
+
+{
+    "refreshTime": 16,
+    "gameHealth": 700,
+    "money": 1000,
+    "Map": {
+        "rows":20,
+        "cols": 11,
+        "squareSize": 70,
+        "roadPoints": [[0,2],[10,2],[10,6],[6,6],[6,5],[2,5],[2,9],[16,9],[16,5],[13,5],[13,1],[17,1],[17,2],[19,2]],
+        "towerPoints": [[3,3],[7,7],[11,3],[15,7],[5,1],[15,4]]
+    },
+    "Waves": [{
+            "firstDelay": 2,
+            "numberOfEnemies": 10,
+            "delay": 1.5,
+            "enemyLevel": 0
+        },
+        {
+            "firstDelay": 10,
+            "numberOfEnemies": 7,
+            "delay": 1,
+            "enemyLevel": 1
+        },
+        {
+            "firstDelay": 17,
+            "numberOfEnemies": 15,
+            "delay": 1.7,
+            "enemyLevel": 1
+        },
+        {
+            "firstDelay": 15,
+            "numberOfEnemies": 11,
+            "delay": 0.8,
+            "enemyLevel": 2
+        },
+        {
+            "firstDelay": 16,
+            "numberOfEnemies": 15,
+            "delay": 1.9,
+            "enemyLevel": 2
+        }
+        ],
+    "Enemies":[{ 
+            "health": 60,
+            "speed": 1,
+            "moneyFromEnemy": 50,
+            "damageFromEnemy": 50,
+            "image": "enemy1.png"
+        },
+        { 
+            "health": 200,
+            "speed": 2,
+            "moneyFromEnemy": 90,
+            "damageFromEnemy": 100,
+            "image": "enemy2.png"
+        },
+        { 
+            "health": 400,
+            "speed": 3,
+            "moneyFromEnemy": 130,
+            "damageFromEnemy": 200,
+            "image": "enemy3.png"
+        }
+        ],
+    "Towers":[{
+            "radius": 150,
+            "rateOfFire": 2.1,
+            "price": 150,
+            "image": "tower1.png",
+            "bulletSpeed": 4,
+            "bulletDamage": 30,
+            "bulletImage": "arrow1.png"
+        },
+        {
+            "radius": 200,
+            "rateOfFire": 1.7,
+            "price": 300,
+            "image": "tower2.png",
+            "bulletSpeed": 5,
+            "bulletDamage": 80,
+            "bulletImage": "arrow2.png"
+        },
+        {
+            "radius": 250,
+            "rateOfFire": 0.9,
+            "price": 500,
+            "image": "tower3.png",
+            "bulletSpeed": 6,
+            "bulletDamage": 150,
+            "bulletImage": "arrow3.png"
+        }
+        ]
+}
+
+
+
+
