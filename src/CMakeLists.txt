@@ -27,10 +27,10 @@ set(PROJECT_SOURCES
         tower.cpp
         bullet.h
         bullet.cpp
-        direction.h
+        Direction.h
         direction.cpp
-        towerPlace.h
-        towerPlace.cpp
+        towerplace.h
+        towerplace.cpp
         dataparser.h
         dataparser.cpp
         gameconfig.h
@@ -72,7 +72,7 @@ set_target_properties(TowerDefense PROPERTIES
 )
 
 install(TARGETS TowerDefense
-    BUNDLE DESTINATION .
+    BUNDLE DESTINATION ..
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
